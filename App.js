@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     height: width*0.8,
     width: width*0.8, 
     borderRadius: width*0.8/2, 
-    backgroundColor: 'red',
+    backgroundColor: '#ADD8E6',
     alignSelf: 'center', 
     
   },
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     height: width*0.1,
     width: width*0.1, 
     borderRadius: width*0.1/2, 
-    backgroundColor: 'blue', 
+    backgroundColor: 'tomato', 
     marginTop: width*0.05,
     marginLeft: width*0.05
      
