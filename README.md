@@ -1,6 +1,6 @@
 # Rosary-Tesbih-Zikirmatik
 
-<img src="/ss.png" width="375" height="667">
+<img src="/ss.gif" width="375" height="667">
 
 Installation: npm i --save 
 
