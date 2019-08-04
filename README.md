@@ -1,5 +1,7 @@
 # Rosary-Tesbih-Zikirmatik
 
+![alt text](/ss.png)
+
 Installation: npm i --save 
 
 Rosary is something holy and important almost all religions that people count their prayers with a tool which is too primitive and too effective at the same time. 
