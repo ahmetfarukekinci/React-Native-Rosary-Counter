@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View, Dimensions, Button, TextInput, TouchableOpacity, ImageBackground } from 'react-native'
+import { Text, StyleSheet, View, Dimensions,TouchableOpacity, } from 'react-native'
 
 export default class App extends Component {
   state= { 
@@ -34,7 +34,7 @@ export default class App extends Component {
     <TouchableOpacity 
     onPress={()=> this.onAdd()}
     style={styles.addButton}> 
-
+        <Text style={styles.text}>TAP</Text>
     </TouchableOpacity>
     </View>
     )
@@ -62,7 +62,9 @@ const styles = StyleSheet.create({
     width: width*0.8, 
     borderRadius: width*0.8/2, 
     backgroundColor: '#ADD8E6',
-    alignSelf: 'center', 
+    alignSelf: 'center',
+    justifyContent:'center', 
+    alignItems:'center' 
     
   },
   resetButton:{
@@ -85,5 +87,10 @@ const styles = StyleSheet.create({
     color: 'black', 
     fontSize: 22, 
     fontWeight: 'bold'
+  },
+  text:{
+    color:'#322342', 
+    fontWeight:'bold', 
+    fontSize:height*0.1
   }
 })
