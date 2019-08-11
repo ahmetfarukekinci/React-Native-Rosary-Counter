@@ -2,7 +2,13 @@
 
 <img src="/ss.gif" width="375" height="667">
 
-Installation: npm i --save 
+Installation: 
+```
+npm i --save
+react-native run-android
+react-native run-ios
+```
+
 
 Rosary is something holy and important almost all religions that people count their prayers with a tool which is too primitive and too effective at the same time. 
 
