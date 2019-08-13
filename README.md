@@ -1,4 +1,4 @@
-# Rosary-Tesbih-Zikirmatik
+# Rosary-Counter
 
 <img src="/ss.gif" width="375" height="667">
 
